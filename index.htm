@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +7,17 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
-<body>
+<body >
+    <div class="welocmeArea">
+        <a href=""><i class="fa-solid fa-gear"></i></a>
+        <a href="">English</a>
+        <a href="">العربية</a>
+    </div>
     <header class="header">
  <div class="left-header">
     <div class="logo">
-        <i class="fa-solid fa-mosque"></i>
+        <!-- <i class="fa-solid fa-mosque"></i> -->
+        <img src="data:image/png;base64,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" alt="">
     </div>
     <div class="navigation">
         <a href="#">Quran</a>
@@ -22,6 +28,36 @@
     </div>
  </div>
     </header>
+    <div dir="rtl" class="navigationButtons">
+        <a href="#">أذكار الصباح</a>
+        <a href="#">أذكار المساء</a>
+        <a href="#">أذكار بعد الصلاة</a>
+        <a href="#"> تسابيح</a>
+        <a href="#"> أذكار النوم</a>
+        <a href="#"> أذكار الاستيقاظ</a>
+        <a href="#"> أذكار الصلاة</a>
+        <a href="#"> جوامع الدعاء</a>
+        <a href="#"> أدعية نبوية</a>
+        <a href="#"> الادعية القرآنية</a>
+        <a href="#">  أدعية الانبياء</a>
+        <a href="#">   أذكار متفرقة</a>
+        <a href="#"> أذكار الآذان</a>
+        <a href="#"> أذكار المسجد</a>
+        <a href="#"> أذكار الوضؤ</a>
+        <a href="#"> أذكار المنزل</a>
+        <a href="#"> أذكار الخلاء</a>
+        <a href="#"> الادعية الطعام</a>
+        <a href="#">ادعية الحج و العمرة</a>
+        <a href="#"> فضل الدعاء</a>
+        <a href="#"> فضل السور</a>
+        <a href="#"> فضل القرآن</a>
+        <a href="#">الاسماء الحسنى</a>
+        <a href="#"> أدعية الميت </a>
+        <a href="#">  الرقية الشرعية</a>
+        <a href="#">  القرآن</a>
+
+    
+    </div>
     
 </body>
 </html>
