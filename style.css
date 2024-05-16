@@ -1,10 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Outfit:wght@100..900&family=Poppins:wght@400;700&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Noto Naskh Arabic", serif;
 }
 
 .left-header {
@@ -48,9 +50,10 @@ header {
 .welocmeArea a{
     color: #fff;
     text-decoration: none;
-    padding: 10px;
+    padding-right: 20px;
+    padding-top: 5px;
     border-radius: 5px;
-    font-size: 1.2em;
+    font-size: 1em;
 
 }
 .welocmeArea a:hover{
@@ -58,14 +61,19 @@ header {
  color: #18bc9c;
 }
 .navigationButtons{
-    background-color: #fff;
-    margin: 10px 195px;
+
+
     padding: 20px;
     display: flex;
     /* justify-content: flex-end; */
-    border-radius: 10px;
+
     flex-wrap: wrap;
 
+}
+.main{
+    margin: 10px 195px;
+    background-color: #fff;
+    border-radius: 10px;
 }
 .navigationButtons a{
     color: #fff;
@@ -88,3 +96,91 @@ header {
 body{
     background-color:#e1e8ea; ;
 }
+/* .zekerTitle{
+    background-color: #3498db;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    font-family: "Noto Naskh Arabic", serif;
+} */
+.zekerTitle h2{
+    background-color: #3498db;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    font-family: "Noto Naskh Arabic", serif;
+    font-size: 2em;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.sabah{
+    border: solid 1px #3498db ;
+}
+
+.counters{
+background-color: #18bc9c;
+
+color: #fff;
+margin:7px 25px;
+
+width: 15%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+border-radius: 10px;
+}
+.counters p {
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.8em;
+    font-weight: 400px;
+}
+.counters span {
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.8em;
+    font-weight: 400px;
+}
+
+.counter{
+    text-align: center;
+    padding: 20px;
+}
+.zeker_repeat{
+    text-align: center;
+    color: #1aae93;
+
+}
+.zeker{
+    display: flex; 
+}
+
+
+.zeker_card{
+    margin:7px 5px;
+
+    width: 85%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.zeker_card span{
+    color: #ff8000;
+}
+.zeker_txt p{
+    font-size: 1.75em;
+    font-family: "Noto Naskh Arabic", serif;
+    
+}
+
+.zeker_fadhel{
+color: #18bc9c;
+font-size: 1.2em;
+}
+ 
+.reload{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    color: #1aae93;
+}
+
+
